@@ -187,26 +187,32 @@ th, td{
 /* ofertas */   
 
 .oferts {
-    display: flex; 
-    justify-content: space-between; 
-    flex-wrap: nowrap; 
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 20px; 
   }
 
   
   .ofert-1 {
-    flex: 1; 
-    border: 2px solid #ccc; 
-    padding: 15px; 
+    width: 270px;
+    margin: 10px;
+    border: black; 
+    padding: 10px;
     box-sizing: border-box; 
+    background-color: white; 
+}
   }
   
   .ofert-1 img {
-    max-width: 100%;
-    height: 60%;
+    width: 100%; 
+  height: 250px;
+  object-fit: cover; 
+  border-radius: 5px; 
   }
   
   .ofert-txt {
-    margin-top: 15px; 
+    text-align: center; 
+    margin-top: 20px; 
   }
   section.oferts {
     display: flex;
@@ -222,8 +228,8 @@ th, td{
 }
 
 .products h3 {
-  text-align: left; 
-  margin-bottom: 30px; 
+  text-align: center; 
+  margin-bottom: 10px; 
 }
 
 .box-container {
@@ -233,14 +239,13 @@ th, td{
 }
 
 .box {
-  width: 300px;
+  width: 270px;
   margin: 10px;
   border: white; 
   padding: 10px;
   box-sizing: border-box; 
   background-color: white; 
 }
-
 
 .box img {
   width: 100%; 
@@ -254,25 +259,6 @@ th, td{
   margin-top: 10px; 
 }
 
-.agregar-bolsa {
-  display: block; 
-  margin-top: 10px; 
-  padding: 10px 20px; 
-  background-color: #AE99D7; 
-  color: white; 
-  text-decoration: none; 
-  border-radius: 5px; 
-}
 
-.btn-2 {
-  display: block; 
-  margin-top: 20px; 
-  text-align: center; 
-  padding: 10px 20px; 
-  background-color: #007bff; 
-  color: white; 
-  text-decoration: none; 
-  border-radius: 5px; 
-}
   
 
